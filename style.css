@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Poppins", serif;
-  background-color: #121212;
+  background-color:#FFF3E0;
 }
 
 .container {
@@ -65,9 +65,10 @@ li{
 }
 
 .urgent {
-color: tomato;
+color: #FFAB91;
 }
 
 .completed p{
 text-decoration: line-through;
+color: #81C784;
 }
