@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Poppins", serif;
-  background-color:#FFF3E0;
+  background-color: #0c0c0c;
 }
 
 .container {
@@ -25,6 +25,12 @@ form {
   align-items: center;
 }
 
+form button {
+  margin-top: 20px;
+  background-color: rgb(213, 135, 250);
+  padding: 0.5rem 1.4rem;
+}
+
 input[type='text'] {
   padding: 4px;
   font-size: 1rem;
@@ -32,43 +38,55 @@ input[type='text'] {
 }
 
 button {
-  margin-top: 20px;
-  background-color: lightskyblue;
   border: none;
   border-radius: 8px;
   color: whitesmoke;
   font-size: 1.2rem;
-  padding: 0.5rem 1.4rem;
   cursor: pointer;
 }
 
 .todo-list {
-  border: 3px solid rgb(254, 254, 254);
+  background-color: whitesmoke;
+  border-radius: 6px;
   width: 35dvw;
   height: 100dvh;
   margin-top: 20px;
-  padding: 0 1.4rem;
+  padding: 1rem;
 }
 
-
-li{
+li {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
-  color: #00BCD4;
+  cursor: pointer;
+  box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.137);
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+img {
+  width: 50px;
+  display: block;
 }
 
 .listBtn {
- display: flex;
- gap:20px 
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.urgent {
-color: #FFAB91;
+.listBtn button {
+  background-color: rgba(227, 229, 233, 0.637);
+  box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.219);
 }
 
-.completed p{
-text-decoration: line-through;
-color: #81C784;
+.listBtn button:hover {
+  background-color: rgb(227, 229, 233);
+}
+
+.completed p {
+  text-decoration: line-through;
+  color: #1df328;
 }
